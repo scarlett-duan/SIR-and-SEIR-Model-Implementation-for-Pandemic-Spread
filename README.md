@@ -1,5 +1,5 @@
-## Part C
-![SEIR Model Over 150 Days]https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png
+## Part C9
+![SEIR Model Over 150 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png)
 ### i. Infection Peak:
 - **Peak Timing and Level**: The infection reaches its peak at approximately day 40, with the highest number of individuals infected at this point.
 - **Contributing Factors**: The peak is influenced by a high initial number of susceptible individuals and the transmission rate (β). As the disease spreads rapidly, the pool of susceptible individuals decreases, which eventually reduces the rate of new infections.
