@@ -18,8 +18,8 @@
 - **Interactions Between Compartments**: The interactions between the susceptible, infected, and recovered populations illustrate the flow of the epidemic. The rates of transmission and recovery dictate the progression of the epidemic, influencing how quickly it reaches its peak and subsides.
 
 ## Part D
-![SEIR Model Over 365 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_365_Days.png))
-![SEIR Model Over 1200 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_1200_Days.png))
+![SEIR Model Over 365 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_365_Days.png)
+![SEIR Model Over 1200 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_1200_Days.png)
 ### iii. Discuss the Pattern Observed in the Number of Infections in Terms of Waves of the Pandemic
 
 - **Initial and Subsequent Waves**: The initial analysis of the SEIR model over 365 days shows a single pronounced wave of infection. This peak suggests a rapid spread followed by a significant decline in the number of infections. However, the extended analysis over 1200 days reveals a more complex pattern with multiple waves. These subsequent waves indicate that the pandemic can resurge after the initial wave has subsided. This pattern could be due to several factors, including waning immunity, changes in social behavior, or introduction of new susceptible individuals into the population.
