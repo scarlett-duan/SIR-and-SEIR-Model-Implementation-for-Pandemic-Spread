@@ -1,4 +1,14 @@
+# SEIR Model Implementation for Pandemic Spread Analysis
+
+## Overview
+This project focuses on the implementation and analysis of the Susceptible-Exposed-Infected-Recovered (SEIR) model to understand the dynamics of infectious disease spread. This includes expanding the basic SIR model by incorporating an exposed compartment and the effects of birth and death rates on disease transmission.
+
+## Repository Contents
+- `hw10.py`: Python code containing the implementation and simulation of the SIR model and the SEIR model.
+
 ## Part C
+### SIR Model Dynamics
+Here is the simulation of the SIR model over 150 days:
 ![SIR Model Over 150 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png)
 ### i. Infection Peak:
 - **Peak Timing and Level**: The infection reaches its peak at approximately day 40, with the highest number of individuals infected at this point.
@@ -18,8 +28,10 @@
 - **Interactions Between Compartments**: The interactions between the susceptible, infected, and recovered populations illustrate the flow of the epidemic. The rates of transmission and recovery dictate the progression of the epidemic, influencing how quickly it reaches its peak and subsides.
 
 ## Part D
-![SEIR Model Over 365 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_365_Days.png)
-![SEIR Model Over 1200 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_1200_Days.png)
+### SEIR Model Dynamics
+Simulation of the SEIR model over 365 days and 1200 days is shown below:
+![SEIR Model Over 365 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_365_Days.png)
+![SEIR Model Over 1200 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_1200_Days.png)
 ### iii. Discuss the Pattern Observed in the Number of Infections in Terms of Waves of the Pandemic
 
 - **Initial and Subsequent Waves**: The initial analysis of the SEIR model over 365 days shows a single pronounced wave of infection. This peak suggests a rapid spread followed by a significant decline in the number of infections. However, the extended analysis over 1200 days reveals a more complex pattern with multiple waves. These subsequent waves indicate that the pandemic can resurge after the initial wave has subsided. This pattern could be due to several factors, including waning immunity, changes in social behavior, or introduction of new susceptible individuals into the population.
@@ -48,3 +60,8 @@
   - **Balancing β and γ**: The sensitivity analysis demonstrates the importance of balancing interventions that reduce transmission (β) and those that enhance recovery (γ). Effective public health strategies might include promoting social distancing and mask-wearing to reduce β, alongside improving healthcare responses and treatment protocols to increase γ.
   - **Dynamic Adjustments**: The ability to adjust these parameters dynamically in response to changing epidemic conditions can help manage and mitigate the impact effectively. For instance, as new variants of a virus emerge that might spread more easily (increasing β), enhancing medical treatment capabilities and recovery rates (increasing γ) becomes even more critical.
 
+## Credits
+- Developed by Scarlett Duan
+- Contact Information: yuqing.duan@emory.edu
+## Disclaimer
+This project uses generative AI tools for simulation and analysis. Specific details about the use of these tools are documented in the respective Jupyter Notebooks.
