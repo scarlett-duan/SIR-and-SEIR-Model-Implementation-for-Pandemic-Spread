@@ -1,5 +1,5 @@
-## Part C9
-![SEIR Model Over 150 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png)
+## Part C
+![SIR Model Over 150 Days](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png)
 ### i. Infection Peak:
 - **Peak Timing and Level**: The infection reaches its peak at approximately day 40, with the highest number of individuals infected at this point.
 - **Contributing Factors**: The peak is influenced by a high initial number of susceptible individuals and the transmission rate (β). As the disease spreads rapidly, the pool of susceptible individuals decreases, which eventually reduces the rate of new infections.
@@ -18,7 +18,8 @@
 - **Interactions Between Compartments**: The interactions between the susceptible, infected, and recovered populations illustrate the flow of the epidemic. The rates of transmission and recovery dictate the progression of the epidemic, influencing how quickly it reaches its peak and subsides.
 
 ## Part D
-
+![SEIR Model Over 365 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_365_Days.png))
+![SEIR Model Over 1200 Days]([https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SIR_Model_Year.png](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Model_1200_Days.png))
 ### iii. Discuss the Pattern Observed in the Number of Infections in Terms of Waves of the Pandemic
 
 - **Initial and Subsequent Waves**: The initial analysis of the SEIR model over 365 days shows a single pronounced wave of infection. This peak suggests a rapid spread followed by a significant decline in the number of infections. However, the extended analysis over 1200 days reveals a more complex pattern with multiple waves. These subsequent waves indicate that the pandemic can resurge after the initial wave has subsided. This pattern could be due to several factors, including waning immunity, changes in social behavior, or introduction of new susceptible individuals into the population.
@@ -32,6 +33,7 @@
 - **Birth and Death Rates**: The inclusion of birth and death rates in the model introduces a dynamic element that continuously affects the susceptible population. Over long periods, as shown in the 1200-day plot, the birth rate sustains the susceptible population even as the disease causes deaths in other compartments. This can lead to a steady state where the disease remains present in the population but at manageable levels, or it can fuel new waves if the birth rate significantly exceeds the death rate. The balance between these rates is crucial for predicting the long-term behavior of the pandemic and for planning sustainable public health strategies.
 
 ## Part E
+![SEIR Sensitivity Analysis](https://github.com/scarlett-duan/SIR-and-SEIR-Model-Implementation-for-Pandemic-Spread/blob/main/SEIR_Sensitivity_Analysis.png)
 ### iii. Discuss the Implications for Public Health Interventions, Relating β to Social Distancing and γ to Medical Treatments
 
 - **Impact of Varying β (Transmission Rate)**:
