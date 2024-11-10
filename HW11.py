@@ -93,7 +93,7 @@ plt.grid(True)
 plt.savefig('SEIR_Model_1200_Days.png')
 plt.show()
 
-# Sensitivity analysis for various β and γ values
+# E) Sensitivity analysis for various β and γ values
 # Parameters
 initial_conditions = [990, 9, 1, 0]
 sigma = 0.2
