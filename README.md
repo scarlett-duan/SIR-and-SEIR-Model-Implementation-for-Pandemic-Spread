@@ -3,9 +3,10 @@
 ## Overview
 This project focuses on the implementation and analysis of the Susceptible-Exposed-Infected-Recovered (SEIR) model to understand the dynamics of infectious disease spread. This includes expanding the basic SIR model by incorporating an exposed compartment and the effects of birth and death rates on disease transmission.
 
-## Repository Contents
+## Code Part
 - `hw10.py`: Python code containing the implementation and simulation of the SIR model and the SEIR model.
 
+## Written Part
 ## Part C
 ### SIR Model Dynamics
 Here is the simulation of the SIR model over 150 days:
@@ -60,8 +61,21 @@ Simulation of the SEIR model over 365 days and 1200 days is shown below:
   - **Balancing β and γ**: The sensitivity analysis demonstrates the importance of balancing interventions that reduce transmission (β) and those that enhance recovery (γ). Effective public health strategies might include promoting social distancing and mask-wearing to reduce β, alongside improving healthcare responses and treatment protocols to increase γ.
   - **Dynamic Adjustments**: The ability to adjust these parameters dynamically in response to changing epidemic conditions can help manage and mitigate the impact effectively. For instance, as new variants of a virus emerge that might spread more easily (increasing β), enhancing medical treatment capabilities and recovery rates (increasing γ) becomes even more critical.
 
+## Analysis and Interpretation
+### Key Insights
+- **Infection Peaks and Troughs**: Analysis of infection peaks and how they correlate with the intervention measures and natural progression of the disease.
+- **Role of β and γ**: Discussing how changes in the transmission rate (β) and recovery rate (γ) impact the spread of the disease.
+
+### Relevance to Model-Based Machine Learning
+- This project illustrates the application of mathematical modeling in understanding complex biological and public health phenomena, providing a basis for more advanced predictive modeling and machine learning applications.
+
+## Suggestions for Future Modeling Improvements
+- **Incorporation of Seasonality and Mobility Patterns**: To better mimic real-world conditions.
+- **Advanced Parameter Estimation Techniques**: Utilizing data assimilation methods to improve the accuracy of model parameters.
+
 ## Credits
 - Developed by Scarlett Duan
 - Contact Information: yuqing.duan@emory.edu
+
 ## Disclaimer
-This project uses generative AI tools for simulation and analysis. Specific details about the use of these tools are documented in the respective Jupyter Notebooks.
+This project uses generative AI tools for simulation and analysis. Specific details about the use of these tools are documented in AI_use.pdf.
