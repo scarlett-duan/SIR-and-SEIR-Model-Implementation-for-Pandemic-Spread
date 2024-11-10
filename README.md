@@ -78,4 +78,5 @@ Simulation of the SEIR model over 365 days and 1200 days is shown below:
 - Contact Information: yuqing.duan@emory.edu
 
 ## Disclaimer
+Disclaimer: ChatGPT was used to complete HW #1.B, D, and E to generate the plots
 This project uses generative AI tools for simulation and analysis. Specific details about the use of these tools are documented in AI_use.pdf.
